@@ -123,7 +123,7 @@ const links = [
   },
 ]
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
@@ -132,7 +132,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>— samo 200.000kn! 🎉🎉🎉</span>
       </h1>
       <p style={paragraphStyles}>
-        Javite mi se na instagram, šta
+        About us
         update in real-time. 😎
        
       </p>
@@ -172,6 +172,6 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default AboutPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>About Page</title>
